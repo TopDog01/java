@@ -11,7 +11,7 @@ public class Task3 {
     private void writeToFile(String path, String content) {
 
 //        File file = new File(path);
-        FileWriter fw = FileWе
+//        FileWriter fw = FileWе
     }
 
 }
