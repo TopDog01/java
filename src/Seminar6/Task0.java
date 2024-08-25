@@ -8,11 +8,13 @@ import java.util.TreeSet;
 public class Task0 {
     public static void main(String[] args) {
         Set<Integer> treeSet = new TreeSet<>();
-        Set<Integer> linkedHashSet = new LinkedHashSet<>();
         Set<Integer> hashSet = new HashSet<>();
+        Set<Integer> linkedHashSet = new LinkedHashSet<>();
+
+        System.out.println(fillSet(treeSet));
     }
 
-    private static fillSet(Set<Integer> set) {
+    private static Set<Integer> fillSet(Set<Integer> set) {
         set.add(1);
         set.add(2);
         set.add(3);
@@ -20,7 +22,6 @@ public class Task0 {
         set.add(5);
         set.add(6);
         return set;
-
-
     }
 }
+
