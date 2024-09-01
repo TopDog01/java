@@ -2,6 +2,8 @@ package Laptop;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,22 +27,30 @@ public class Main {
         product.add(new Computer(
                 CPU.i7,
                 RAM.RAM_16GB,
-                Disk.SSD_256GB,
-                GPU.nvidia_GTX1060,
-                OS.Windows,
-                Color.blask,
+                Disk.HDD_512GB,
+                GPU.nvidia_RTX4060,
+                OS.Windows11,
+                Color.black,
                 70000));
         product.add(new Computer(
                 CPU.i5,
                 RAM.RAM_8GB,
-                Disk.HDD_258GB,
-                GPU.nvidia_GTX1030,
-                OS.linux,
+                Disk.HDD_256GB,
+                GPU.nvidia_RTX4050,
+                OS.Windows10PRO,
                 Color.blue,
-                60000));
+                75000));
+        product.add(new Computer(
+                CPU.i7,
+                RAM.RAM_16GB,
+                Disk.HDD_1TB,
+                GPU.nvidia_RTX4070,
+                OS.Windows11,
+                Color.blue,
+                100000));
         product.add(new Computer(
                 CPU.i3,
-                RAM.RAM_4GB,
+                RAM.RAM_8GB,
                 Disk.HDD_258GB,
                 GPU.nvidia_GTX1030,
                 OS.linux,
